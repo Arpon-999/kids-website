@@ -1,0 +1,65 @@
+
+
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* shared style */
+.display-flex{
+    display: flex;
+}
+.fixed-width{
+    max-width: 700px;
+    margin: 0 auto;
+}
+/* header section style */
+.logo{
+  justify-content: center;
+  align-items: center;
+}
+.logo h3{
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 10px;
+}
+.logo img{
+  width: 40%;
+  height: 40px;
+}
+.navbar{
+  align-items: center;
+  justify-content: space-between;
+}
+.menu{
+  gap: 30px;
+}
+.menu-item{
+  list-style: none;
+}
+.item-link{
+  text-decoration: none;
+  font-size: 12px;
+}
+.home-link{
+  color: orange;
+}
+.about-link{
+  color: skyblue;
+}
+.facilities-link{
+  color: #05D4DF;
+}
+.addimission-link{
+  color: #5D58EF;
+}
+.header-btn button{
+  color: white;
+  background-color: orange;
+  border-radius: 8px;
+  border: none;
+  font-size: 8px;
+  font-weight: 500;
+  padding: 6px 25px;
+}
