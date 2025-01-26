@@ -63,6 +63,9 @@
   font-weight: 500;
   padding: 15px 45px;
 }
+.mobile-nav-icon{
+  display: none;
+}
 /* banner section */
 .banner-container{
   justify-content: space-between;
@@ -316,6 +319,13 @@ footer{
   }
   .logo img{
     width: 100%;
+  }
+  .mobile-nav-icon{
+    display: block;
+  }
+  .mobile-nav-icon{
+    font-size: 30px;
+    margin-right: 30px;
   }
   .banner-container{
     flex-direction: column-reverse;
